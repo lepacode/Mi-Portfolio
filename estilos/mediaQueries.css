@@ -1,0 +1,40 @@
+@media (width >=768px) {
+    .trabajos__item {
+        flex-basis: 180px;
+        max-width: 260px;
+    }
+
+    .trabajos__item--indesing {
+        flex-basis: 200px;
+        max-width: 350px;
+    }
+
+    .nav__close,
+    .nav__open {
+        display: none;
+    }
+
+    .nav__items {
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-unset;
+        align-items: unset;
+        position: unset;
+        background-color: unset;
+        padding: unset;
+        right: 0;
+        border-radius: unset;
+        width: unset;
+        height: unset;
+        top: unset;
+        transition: unsettransform 200ms ease-in-out;
+        transform: unset;
+    }
+    .nav__link{
+        color: #fff;
+        font-weight: 500;
+        margin-right: 1em;
+    }
+
+
+}
